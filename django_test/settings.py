@@ -26,7 +26,7 @@ while True:
     line = line.replace('\n', '')
     start = line.find('=')
     key = line[:start]
-    value = lin[start+1:]
+    value = line[start+1:]
     env_list[key] = value
 
 # Quick-start development settings - unsuitable for production
